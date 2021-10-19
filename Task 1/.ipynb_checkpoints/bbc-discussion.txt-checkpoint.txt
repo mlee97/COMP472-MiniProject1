@@ -1,0 +1,7 @@
+The distribution of articles amongst the classes is relatively balanced. This means that each class is well represented in this dataset
+and carries equal importance. As such, accuracy is more well-suited for this dataset (over Recall, Precision & F-measure).
+
+The performance of steps 8-10 differed from one another when we involved data that was predicted by the classifier. This means that
+metrics like Recall, Precision, F1-measure, etc... were different because the results of the prediction changed after each trial.
+On the other hand, steps that involve the entire corpus like vocabulary size (f) or number of words with frequency 1 over the entire
+corpus (j) would remain the same from one trial to another.
