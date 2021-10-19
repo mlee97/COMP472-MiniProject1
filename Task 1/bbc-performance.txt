@@ -1,0 +1,288 @@
+-------------------------------------
+Multi-nomialNB default values, try 1
+-------------------------------------
+(b)
+[95  1  5  0  4]
+[ 0 84  2  0  1]
+[ 1  2 85  0  0]
+[ 0  0  1 83  0]
+[ 0  0  2  0 79]
+
+(c)
+               precision    recall  f1-score   support
+
+     business       0.99      0.90      0.95       105
+entertainment       0.97      0.97      0.97        87
+     politics       0.89      0.97      0.93        88
+        sport       1.00      0.99      0.99        84
+         tech       0.94      0.98      0.96        81
+
+     accuracy                           0.96       445
+    macro avg       0.96      0.96      0.96       445
+ weighted avg       0.96      0.96      0.96       445
+
+(d)
+accuracy: 0.9573033707865168
+macro-average F1: 0.9582680710955296
+weighted-average F1: 0.9574449608420793
+
+(e)
+
+P(business)= -1.4804815761795922
+P(entertainment)= -1.783925069895444
+P(politics)= -1.688310892520759
+P(sport)= -1.4275846300575061
+P(tech)= -1.716047647492359
+
+(f)
+size of vocabulary: 29421
+
+(g)
+Number of words in business: 132004.0
+Number of words in entertainment: 96937.0
+Number of words in politics: 144194.0
+Number of words in sport: 139316.0
+Number of words in tech: 157931.0
+
+(h)
+The number of word tokens for the entire corpus: 836357
+
+(i)
+Number of words in business with frequency zero: 14872706.0
+Percentage of words in business with frequency zero: 0.9912024957496679%
+
+Number of words in entertainment with frequency zero: 11259569.0
+Percentage of words in entertainment with frequency zero: 0.9914641880169834%
+
+Number of words in politics with frequency zero: 12124363.0
+Percentage of words in politics with frequency zero: 0.9882468655441712%
+
+Number of words in sport with frequency zero: 14894815.0
+Percentage of words in sport with frequency zero: 0.9907333519975314%
+
+Number of words in tech with frequency zero: 11639890.0
+Percentage of words in tech with frequency zero: 0.9866135449927576%
+
+(j)
+Number of words with frequency 1: 319824
+Percentage of words with frequency 1: 0.004885664103718624
+
+(k)
+Log Probability of'athletic': -0.1405082969502185
+Log Probability of'athletic': -0.1330679523732444
+-------------------------------------
+Multi-nomialNB default values, try 2
+-------------------------------------
+(b)
+[95  1  5  0  4]
+[ 0 84  2  0  1]
+[ 1  2 85  0  0]
+[ 0  0  1 83  0]
+[ 0  0  2  0 79]
+
+(c)
+               precision    recall  f1-score   support
+
+     business       0.99      0.90      0.95       105
+entertainment       0.97      0.97      0.97        87
+     politics       0.89      0.97      0.93        88
+        sport       1.00      0.99      0.99        84
+         tech       0.94      0.98      0.96        81
+
+     accuracy                           0.96       445
+    macro avg       0.96      0.96      0.96       445
+ weighted avg       0.96      0.96      0.96       445
+
+(d)
+accuracy: 0.9573033707865168
+macro-average F1: 0.9582680710955296
+weighted-average F1: 0.9574449608420793
+
+(e)
+
+P(business)= -1.4804815761795922
+P(entertainment)= -1.783925069895444
+P(politics)= -1.688310892520759
+P(sport)= -1.4275846300575061
+P(tech)= -1.716047647492359
+
+(f)
+size of vocabulary: 29421
+
+(g)
+Number of words in business: 132004.0
+Number of words in entertainment: 96937.0
+Number of words in politics: 144194.0
+Number of words in sport: 139316.0
+Number of words in tech: 157931.0
+
+(h)
+The number of word tokens for the entire corpus: 836357
+
+(i)
+Number of words in business with frequency zero: 14872706.0
+Percentage of words in business with frequency zero: 0.9912024957496679%
+
+Number of words in entertainment with frequency zero: 11259569.0
+Percentage of words in entertainment with frequency zero: 0.9914641880169834%
+
+Number of words in politics with frequency zero: 12124363.0
+Percentage of words in politics with frequency zero: 0.9882468655441712%
+
+Number of words in sport with frequency zero: 14894815.0
+Percentage of words in sport with frequency zero: 0.9907333519975314%
+
+Number of words in tech with frequency zero: 11639890.0
+Percentage of words in tech with frequency zero: 0.9866135449927576%
+
+(j)
+Number of words with frequency 1: 319824
+Percentage of words with frequency 1: 0.004885664103718624
+
+(k)
+Log Probability of'athletic': -0.1405082969502185
+Log Probability of'athletic': -0.1330679523732444
+-------------------------------------
+Multi-nomialNB default values, try 3 smooting 0.0001
+-------------------------------------
+(b)
+[99  1  1  0  4]
+[ 0 85  1  0  1]
+[ 2  2 84  0  0]
+[ 0  0  1 83  0]
+[ 1  0  2  0 78]
+
+(c)
+               precision    recall  f1-score   support
+
+     business       0.97      0.94      0.96       105
+entertainment       0.97      0.98      0.97        87
+     politics       0.94      0.95      0.95        88
+        sport       1.00      0.99      0.99        84
+         tech       0.94      0.96      0.95        81
+
+     accuracy                           0.96       445
+    macro avg       0.96      0.97      0.96       445
+ weighted avg       0.96      0.96      0.96       445
+
+(d)
+accuracy: 0.9640449438202248
+macro-average F1: 0.9644668682349827
+weighted-average F1: 0.9640905135452219
+
+(e)
+
+P(business)= -1.4804815761795922
+P(entertainment)= -1.783925069895444
+P(politics)= -1.688310892520759
+P(sport)= -1.4275846300575061
+P(tech)= -1.716047647492359
+
+(f)
+size of vocabulary: 29421
+
+(g)
+Number of words in business: 132004.0
+Number of words in entertainment: 96937.0
+Number of words in politics: 144194.0
+Number of words in sport: 139316.0
+Number of words in tech: 157931.0
+
+(h)
+The number of word tokens for the entire corpus: 836357
+
+(i)
+Number of words in business with frequency zero: 14872706.0
+Percentage of words in business with frequency zero: 0.9912024957496679%
+
+Number of words in entertainment with frequency zero: 11259569.0
+Percentage of words in entertainment with frequency zero: 0.9914641880169834%
+
+Number of words in politics with frequency zero: 12124363.0
+Percentage of words in politics with frequency zero: 0.9882468655441712%
+
+Number of words in sport with frequency zero: 14894815.0
+Percentage of words in sport with frequency zero: 0.9907333519975314%
+
+Number of words in tech with frequency zero: 11639890.0
+Percentage of words in tech with frequency zero: 0.9866135449927576%
+
+(j)
+Number of words with frequency 1: 319824
+Percentage of words with frequency 1: 0.004885664103718624
+
+(k)
+Log Probability of'athletic': -0.1405082969502185
+Log Probability of'athletic': -0.1330679523732444
+-------------------------------------
+Multi-nomialNB default values, try 4 (smoothing 0.9)
+-------------------------------------
+(b)
+[95  1  5  0  4]
+[ 0 84  2  0  1]
+[ 1  2 85  0  0]
+[ 0  0  1 83  0]
+[ 0  0  2  0 79]
+
+(c)
+               precision    recall  f1-score   support
+
+     business       0.99      0.90      0.95       105
+entertainment       0.97      0.97      0.97        87
+     politics       0.89      0.97      0.93        88
+        sport       1.00      0.99      0.99        84
+         tech       0.94      0.98      0.96        81
+
+     accuracy                           0.96       445
+    macro avg       0.96      0.96      0.96       445
+ weighted avg       0.96      0.96      0.96       445
+
+(d)
+accuracy: 0.9573033707865168
+macro-average F1: 0.9582680710955296
+weighted-average F1: 0.9574449608420793
+
+(e)
+
+P(business)= -1.4804815761795922
+P(entertainment)= -1.783925069895444
+P(politics)= -1.688310892520759
+P(sport)= -1.4275846300575061
+P(tech)= -1.716047647492359
+
+(f)
+size of vocabulary: 29421
+
+(g)
+Number of words in business: 132004.0
+Number of words in entertainment: 96937.0
+Number of words in politics: 144194.0
+Number of words in sport: 139316.0
+Number of words in tech: 157931.0
+
+(h)
+The number of word tokens for the entire corpus: 836357
+
+(i)
+Number of words in business with frequency zero: 14872706.0
+Percentage of words in business with frequency zero: 0.9912024957496679%
+
+Number of words in entertainment with frequency zero: 11259569.0
+Percentage of words in entertainment with frequency zero: 0.9914641880169834%
+
+Number of words in politics with frequency zero: 12124363.0
+Percentage of words in politics with frequency zero: 0.9882468655441712%
+
+Number of words in sport with frequency zero: 14894815.0
+Percentage of words in sport with frequency zero: 0.9907333519975314%
+
+Number of words in tech with frequency zero: 11639890.0
+Percentage of words in tech with frequency zero: 0.9866135449927576%
+
+(j)
+Number of words with frequency 1: 319824
+Percentage of words with frequency 1: 0.004885664103718624
+
+(k)
+Log Probability of'athletic': -0.1405082969502185
+Log Probability of'athletic': -0.1330679523732444

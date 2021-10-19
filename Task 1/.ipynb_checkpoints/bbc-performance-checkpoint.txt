@@ -1,0 +1,57 @@
+-------------------------------------Multi-nomialNB default values, try 1-------------------------------------
+[97  0  2  0  2]
+[ 0 69  0  0  0]
+[ 0  0 90  0  2]
+[  0   0   0 103   0]
+[ 0  1  0  0 79]
+
+               precision    recall  f1-score   support
+
+     business       1.00      0.96      0.98       101
+entertainment       0.99      1.00      0.99        69
+     politics       0.98      0.98      0.98        92
+        sport       1.00      1.00      1.00       103
+         tech       0.95      0.99      0.97        80
+
+     accuracy                           0.98       445
+    macro avg       0.98      0.99      0.98       445
+ weighted avg       0.98      0.98      0.98       445
+
+accuracy: 0.9842696629213483
+macro-average F1: 0.9840379516266227
+weighted-average F1: 0.984290349105251
+
+P(business)= -1.4706534872433288
+P(business)= -1.7254668694088506
+P(business)= -1.7005434609563936
+P(business)= -1.4731014688819695
+P(business)= -1.7129275201561152
+-------------------------------------Multi-nomialNB default values, try 1-------------------------------------
+[106   0   2   0   1]
+[ 0 63  1  0  2]
+[ 1  0 82  0  0]
+[  0   0   1 104   0]
+[ 0  0  1  0 81]
+
+               precision    recall  f1-score   support
+
+     business       0.99      0.97      0.98       109
+entertainment       1.00      0.95      0.98        66
+     politics       0.94      0.99      0.96        83
+        sport       1.00      0.99      1.00       105
+         tech       0.96      0.99      0.98        82
+
+     accuracy                           0.98       445
+    macro avg       0.98      0.98      0.98       445
+ weighted avg       0.98      0.98      0.98       445
+
+accuracy: 0.9797752808988764
+macro-average F1: 0.9788100950687101
+weighted-average F1: 0.9798626742402021
+
+P(business)= -1.4904072159795616
+P(business)= -1.716047647492359
+P(business)= -1.67322765030943
+P(business)= -1.4780154836843984
+P(business)= -1.7191775405012866
+size of vocabulary29421
